@@ -1,2 +1,1 @@
-# grupo5
-Proyecto oficial
+# Grupo02DDW
