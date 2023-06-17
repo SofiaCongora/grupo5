@@ -44,7 +44,7 @@ body {
     margin-top: 60px;
     padding: 20px;
     color: rgb(255, 255, 255);
-    font-family: font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     text-align: left;
   }
@@ -52,11 +52,13 @@ body {
   /* Estilos para las secciones */
   .section {
     height: 500px; /* Altura de las secciones */
+    
   }
 
   #inicio {
     background-color: #27b155;
     padding-top: 60px;
+  
     
   
   }
