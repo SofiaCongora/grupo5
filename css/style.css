@@ -54,10 +54,14 @@ body {
     height: 500px; /* Altura de las secciones */
     
   }
+  
+
+   
 
   #inicio {
     background-color: #27b155;
-    padding-top: 60px;
+    padding-top: 80px;
+    height: 600px;
   
     
   
