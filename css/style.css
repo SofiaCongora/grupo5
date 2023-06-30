@@ -68,6 +68,8 @@ body {
   
   #contacto {
     background-color: #27b155;
+    height: auto;
+    
   }
   a {
     color: lightseagreen;
