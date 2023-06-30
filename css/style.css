@@ -49,6 +49,8 @@ body {
     text-align: left;
   }
   
+
+  
   /* Estilos para las secciones */
   .section {
     height: 500px; /* Altura de las secciones */
@@ -60,8 +62,8 @@ body {
 
   #inicio {
     background-color: #27b155;
-    padding-top: 80px;
-    height: 600px;
+    padding-top: 50px;
+    height: 690px;
   
     
   
