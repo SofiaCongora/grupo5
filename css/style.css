@@ -72,10 +72,13 @@ body {
   
   #acerca {
     background-color: #dab85d;
+    height: 900px;
   }
   
   #contacto {
     background-color: #27b155;
+    height: auto;
+    
   }
   a {
     color: lightseagreen;
