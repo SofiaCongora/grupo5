@@ -27,14 +27,14 @@ body {
   }
   
   .navbar-links a {
-    color: #fff;
+    color: #27b155;
     text-decoration: none;
     padding: 15px;
     
     display: inline-block;
   }
   .navbar a {
-    color: #fff;
+    color: #27b155;
     text-decoration: none;
     padding: 15px;
     display: inline-block;
@@ -47,7 +47,10 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     text-align: left;
+    
   }
+  
+
   
   /* Estilos para las secciones */
   .section {
@@ -60,14 +63,12 @@ body {
 
   #inicio {
     background-color: #27b155;
-    padding-top: 80px;
-    height: 600px;
+    padding-top: 50px;
+    height: 500px;
   
     
   
   }
-  
-  
   #acerca {
     background-color: #b81f1f;
     height: 2000px;
@@ -75,6 +76,8 @@ body {
   
   #contacto {
     background-color: #27b155;
+    height: auto;
+    
   }
   a {
     color: lightseagreen;
@@ -82,7 +85,7 @@ body {
     text-decoration: line-through;
    
     }
-  
+  .
     
 /*
 
@@ -98,7 +101,7 @@ body {
 */
 
 
-    a:link {
+a :link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: steelblue;
       }
