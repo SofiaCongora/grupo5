@@ -121,6 +121,29 @@
         </div>
 
 
+              <div class="col-md-4">
+                  <form>
+                      <div class="form-group">
+                          <label for="contactName">Nombre</label>
+                          <input type="text" name="nombre" placeholder="Tu Nombre" class="form-control" id="contactName" required>
+                  
+                          <label for="contactPhone">Teléfono</label>
+                          <input type="tel" name="fone" placeholder="Tu Teléfono" class="form-control" id="contactPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                          
+                          <label for="contactPhone">Correo</label>
+                          <input type="tel" name="email" placeholder="Tu Email" class="form-control" id="contactPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                  
+                          <label for="contactName">Edad</label>
+                          <input type="number" name="edad" placeholder="Tu Edad" class="form-control" id="contactName" required>
+
+                          <label for="contactComment">Comentario</label>
+                          <textarea class="form-control" id="contactComment" rows="3" required></textarea>
+                          
+                      </div>
+                      <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                  </form>
+
+
       <hr class="featurette-divider">
 
         <div id="servicios" class="container my-3">
