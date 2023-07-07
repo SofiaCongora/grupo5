@@ -47,6 +47,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     text-align: left;
+    
   }
   
 
@@ -69,8 +70,8 @@ body {
   
   }
   #acerca {
-    background-color: #dab85d;
-    height: 900px;
+    background-color: #b81f1f;
+    height: 2000px;
   }
   
   #contacto {
