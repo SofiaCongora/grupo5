@@ -204,20 +204,55 @@
         </div>
 
         <div id="contacto" class="content section">
-          <div class="container-form">
-            <div class="info-form">
-                <h2>Contáctanos</h2>
-                <p>Si quieres saber más de nuestros productos o de nosotros, puedes escribirnos tus dudas y/o sugerencias. Nos estaremos contactando contigo a la brevedad. También puedes comunicarte con nosotros a través de nuestras redes sociales oficiales.</p>
-                <a href="#"><i class="fa fa-phone"></i> 999 888 777</a>
-                <a href="#"><i class="fa fa-envelope"></i> correo@gmail.com</a>
-                <a href="#"><i class="fa fa-map-marked"></i> Ciudad, Lima</a>
+          
+
+        
+        <div id="contacto" class="container my-3">
+          <div class="pricing-header mx-auto text-center">
+              <h1 class="display-4">Contáctanos</h1>
+              <p class="lead text-justify">Si quieres saber más de nuestros productos o de nosotros, puedes escribirnos tus dudas y/o sugerencias. Nos estaremos contactando contigo a la brevedad. También puedes comunicarte con nosotros a través de nuestras redes sociales oficiales.</p>
+              <a href="#"><i class="fa fa-phone"></i> 977 287 202</a>
+              <a href="#"><i class="fa fa-envelope"></i> healthyfood@gmail.com</a>
+              <a href="#"><i class="fa fa-map-marked"></i> Plaza San Miguel, San Miguel, Lima</a>
+          </div>
+          <br/>
+          <!-- Google Map Embed -->
+
+
+          <!-- Contact Form -->
+          <div class="row">
+              <div class="col-md-8">
+                  <div class="form-group embed-responsive embed-responsive-16by9 mb-6">
+                      <iframe class="embed-responsive-item mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.503874075046!2d-77.08634212528156!3d-12.077618488161605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c970336b0725%3A0xae2a6f969b48786e!2sPlaza%20San%20Miguel!5e0!3m2!1ses-419!2spe!4v1688677558611!5m2!1ses-419!2spe" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <form>
+                      <div class="form-group">
+                          <label for="contactName">Nombre</label>
+                          <input type="text" name="nombre" placeholder="Tu Nombre" class="form-control" id="contactName" required>
+                  
+                          <label for="contactPhone">Teléfono</label>
+                          <input type="tel" name="fone" placeholder="Tu Teléfono" class="form-control" id="contactPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                          
+                          <label for="contactPhone">Correo</label>
+                          <input type="tel" name="email" placeholder="Tu Email" class="form-control" id="contactPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                  
+                          <label for="contactName">Edad</label>
+                          <input type="number" name="edad" placeholder="Tu Edad" class="form-control" id="contactName" required>
+
+                          <label for="contactComment">Comentario</label>
+                          <textarea class="form-control" id="contactComment" rows="3" required></textarea>
+                          
+                      </div>
+                      <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                  </form>
+
+
+              </div>
             </div>
-            <form action="#" autocomplete="off">
-                <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
-                <input type="emal" name="email" placeholder="Tu Email" class="campo">
-                <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
-                <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-            </form>
+        
         </div>
         </div>
   <footer>
