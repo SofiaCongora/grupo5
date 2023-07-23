@@ -105,7 +105,7 @@ a :link {
     color: steelblue;
       }
       a:visited {
-       color: olive;
+       color: rgb(32, 3, 3);
       }
       a:hover {
         background-color: dimgrey;
