@@ -101,7 +101,7 @@ body {
 */
 
 
-a :link {
+.a:link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: steelblue;
       }
@@ -153,7 +153,7 @@ a :link {
       }
       
       .footer-icons a:hover {
-        background-color: #333;
+        background-color: #000000;
       }
       
       .footer-icons a i {
