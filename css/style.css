@@ -85,7 +85,7 @@ body {
     text-decoration: line-through;
    
     }
-  .
+  
     
 /*
 
@@ -105,6 +105,7 @@ a :link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: steelblue;
       }
+      
       a:visited {
        color: rgb(32, 3, 3);
       }
