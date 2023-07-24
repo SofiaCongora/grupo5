@@ -62,20 +62,51 @@ body {
    
 
   #inicio {
-    background-color: #27b155;
+    background-color: #27b054;
     padding-top: 50px;
     height: 500px;
   
     
   
   }
-  #acerca {
-    background-color: #b81f1f;
-    height: 2000px;
+  #nosotros{
+    background-color: #ffffff;
+    height: auto;
   }
   
+  #servicio {
+    background-color: #27b054;
+    height: auto;
+    
+  }
+
+  #boton{
+    background-color: #0e4ded;
+    height: auto;
+  }
+
+  #receta1 {
+    width: 1500px;
+    height: 510px;
+    background-color: rgb(222, 179, 118);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(7, 7, 7);
+    font-family: Georgia;
+    text-align: justify;
+}
+
+
+#imagen1{
+    width: 250px;
+    float: right;
+    margin-top: -180px;
+}
+
+
   #contacto {
-    background-color: #27b155;
+    background-color: #27b054;
     height: auto;
     
   }
@@ -236,4 +267,5 @@ body {
       .container-form .btn-enviar:hover{
           background: #e39403;
       }
+      
       
